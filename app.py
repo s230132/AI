@@ -8,7 +8,8 @@ st.write('우리나라의 총 플라스틱 배출량은 2.91(백만톤), 재활�
 st.write('중간 정도의 위험 정도를 나타낸다.') 
 col1, col2 = st.columns(2)       
 with col1:
- st.image('수학이미지.PNG')
+     st.image('brian_yurasits_y8k_dMPNWNI_unsplash.jpg')
+     st.write('해안 쓰레기의 위험')
 
 
 
