@@ -19,7 +19,7 @@ with col1:
 with col2:
      st.image('시각화2.png')
      st.write('시각화 자료 2')
-a = st.number_input('촐 플라스틱 폐기물(백만톤) ', value=0)
+a = st.number_input('총 플라스틱 폐기물(백만톤) ', value=0)
 b = st.number_input(' 일인당 폐기물(kg) ', value=0)
 c = st.number_input(' 일인당 재활용률(%) ', value=0)
 
