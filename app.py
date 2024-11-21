@@ -10,6 +10,7 @@ col1, col2 = st.columns(2)
 with col1:
      st.image('brian_yurasits_y8k_dMPNWNI_unsplash.jpg')
      st.write('해안 쓰레기의 위험')
+     st.image('')
 
 
 
