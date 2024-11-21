@@ -24,7 +24,7 @@ b = st.number_input(' 일인당 폐기물(kg) ', value=0)
 c = st.number_input(' 일인당 재활용률(%) ', value=0)
 
 if st.button('입력확인'):              # 사용자가 '합불분류' 버튼을 누르면
-        input_data = [[ a ],[b],[c]]          # 사용자가 입력한 a,b,c 를 input_data에 저장하고
+        input_data = [[ a ,b,c]]          # 사용자가 입력한 a,b,c 를 input_data에 저장하고
         p = model.predict(input_data)      # model이 분류한 값을 p에 저장한다
         if p[0] == 0 :
               st.success('매우 위험 등급입니다.')
