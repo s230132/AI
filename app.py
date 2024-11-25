@@ -20,8 +20,8 @@ with col2:
      st.image('222222222222.png')
      st.write('시각화 자료 2')
 a = st.number_input('총 플라스틱 폐기물(백만톤) ', value=0)
-b = st.number_input(' 일인당 폐기물(kg) ', value=0)
-c = st.number_input(' 일인당 재활용률(%) ', value=0)
+b = st.number_input(' 일인당 재활용률(%) ', value=0)
+c = st.number_input(' 일인당 폐기물(kg)', value=0)
 
 if st.button('입력확인'):              # 사용자가 '합불분류' 버튼을 누르면
         input_data = [[ a ,b,c]]          # 사용자가 입력한 a,b,c 를 input_data에 저장하고
