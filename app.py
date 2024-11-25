@@ -9,7 +9,7 @@ st.title('해안의 폐기물 위험 정도 평가')
 st.subheader('우리나라의   해안 폐기물 위험 정도는 몇일까?')
 st.write('우리나라의 총 플라스틱 배출량은 2.91(백만톤), 재활용률 59.1%, 일인당 폐기물 56.7kg로') 
 st.write('중간 정도의 위험 정도를 나타낸다.') 
-
+st.write('이 모델의 정확도는1점 만점에 0.6으로, 결과에 너무 집착하지 마시고 주관적으로 판단주세요.')
 col1, col2 = st.columns(2)       
 with col1:    
      st.image('시각화1.png')
@@ -17,7 +17,7 @@ with col1:
      st.image('brian_yurasits_y8k_dMPNWNI_unsplash.jpg')
      st.write('해안 쓰레기의 위험')
 with col2:
-     st.image('222222222222.png')
+     st.image('232323.png')
      st.write('시각화 자료 2')
 a = st.number_input('총 플라스틱 폐기물(백만톤) ', value=0)
 b = st.number_input(' 일인당 재활용률(%) ', value=0)
