@@ -2,7 +2,7 @@
 
 import streamlit as st
 import joblib
-model = joblib.load('logistic_regression_model.pkl') 
+model = joblib.load('찐.pkl') 
 
 
 st.title('해안의 폐기물 위험 정도 평가')
