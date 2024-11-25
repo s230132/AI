@@ -17,7 +17,7 @@ with col1:
      st.image('brian_yurasits_y8k_dMPNWNI_unsplash.jpg')
      st.write('해안 쓰레기의 위험')
 with col2:
-     st.image('시각화2.png')
+     st.image('222222222222.png')
      st.write('시각화 자료 2')
 a = st.number_input('총 플라스틱 폐기물(백만톤) ', value=0)
 b = st.number_input(' 일인당 폐기물(kg) ', value=0)
