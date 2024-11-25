@@ -27,10 +27,9 @@ if st.button('입력확인'):              # 사용자가 '합불분류' 버튼�
         st.write('해안 생태계가 수많은 위협에 휩싸여 있습니다, 그 중 해안의 폐기물이 가장 큰 영향을 미칩니다. 각자의 폐기물의 량을 줄임으로 해안 폐기물로 인한 위험도를 낮춰주세요.')   
         input_data = [[ a ,b,c]]          # 사용자가 입력한 a,b,c 를 input_data에 저장하고
         p = model.predict(input_data)      # model이 분류한 값을 p에 저장한다
-        if p[0] == 0 :
-              st.success('매우 위험 등급입니다.')
-        if p[0] == 1 :
-              st.success('위험 등급입니다.')
+        
+        if p[0] == 1 or p[0] == 0 :
+              st.success('(매우) 위험 등급입니다.')
         if p[0] == 2 :
               st.success('중간 등급입니다.')
         if p[0] == 3 :
